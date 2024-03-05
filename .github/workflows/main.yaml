@@ -1,6 +1,6 @@
 name: flutter_travis_sample
 
-on: pull_request
+on: push
 
 jobs:
   tests:
