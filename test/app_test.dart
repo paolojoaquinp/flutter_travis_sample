@@ -4,6 +4,7 @@ import 'package:flutter_travis_sample/main.dart';
 
 void main() {
   testWidgets('app should work', (WidgetTester tester) async {
-    tester.pumpWidget(new MyApp());
+    await tester.pumpWidget(new MyApp());
+    expect(find.text('Hello, World!'), findsOneWidget);
   });
 }

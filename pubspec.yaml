@@ -1,6 +1,7 @@
 name: flutter_travis_sample
 description: A sample Flutter project that runs tests on Travis.
-
+environment:
+  sdk: '^3.0.0'
 dependencies:
   flutter:
     sdk: flutter
