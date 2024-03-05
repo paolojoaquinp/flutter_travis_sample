@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
         body: const Center(
-          child: Text(', World!'),
+          child: Text('Hello, World!'),
         ),
       ),
     );
